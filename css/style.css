@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*index page*/
+/*header*/
+header{
+    position:relative;
+    height: 80vh; 
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/IMG_3325.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.head{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.head h1{
+    padding: 2vh 0 0 20vh;
+    text-transform:uppercase;
+    
+    cursor: pointer;
+}
+.head ul{
+    padding: 2vh 20vh 0 0;
+
+}
+.head li{
+    display: inline;
+    list-style: none;
+    padding: 2vh;
+    text-transform:uppercase;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+li a:hover{
+    
+    border-top:solid white 4px;
+    width: 15vh;
+}
+.head-one {
+color: white;
+  position:absolute;
+  left: 50vh; 
+  top: 25vh;
+  cursor: pointer;
+}
+.head-one h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size:40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 2vh;
+}
+.head-btn{
+    position: absolute;
+    left: 80vh;
+    top: 50vh;
+    padding-top: 4vh;
+    
+}
+.head-btn button{
+    height: 6vh;
+    width: 30vh;
+    border-radius: 5vh;
+    text-transform: uppercase;
+    border: none;
+    background-color:rgb(106, 165,255) ;
+    color: white;
+    font-size: 17px;
+    box-shadow: 5px 5px 7px black;
+}
+/*section one*/
+section{
+    position: relative;
+    height: 80vh;
+    
+}
+.sect{
+    
+    height: 70vh;
+}
+.sec-one{
+    padding: 8vh 0 5vh 15vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.sec-a{
+    position: absolute;
+    left: 15vh;
+    border: 2px solid black;
+    border: none;
+    padding-bottom: 3vh;
+   background-color:white;
+   box-shadow: 0 0 10px black;
+   border-radius: 2vh;
+}
+.sec-a h4{
+    text-transform: capitalize;
+    padding: 2vh 0 0 2vh;
+}
+.sec-a p{
+    text-transform: capitalize;
+    padding: 0 0 0 2vh; 
+    color: #696969;
+}
+.sec-b{
+    position: absolute;
+    left: 75vh;
+    border: 2px solid black;
+    border: none;
+    padding-bottom: 3vh;
+   background-color:white;
+   box-shadow: 0 0 10px black;
+   border-radius: 2vh;
+}
+.sec-b h4{
+    text-transform: capitalize;
+    padding: 2vh 0 0 2vh;
+}
+.sec-b p{
+    text-transform: capitalize;
+    padding: 0 0 0 2vh; 
+    color: #696969;
+}
+.sec-c{
+    position: absolute;
+    left: 135vh;
+    border: 2px solid black;
+    border: none;
+    padding-bottom: 3vh;
+   background-color:white;
+   box-shadow: 0 0 10px black; 
+   border-radius: 2vh;
+}
+.sec-c h4{
+    text-transform: capitalize;
+    padding: 2vh 0 0 2vh;
+}
+.sec-c p{
+    text-transform: capitalize;
+    padding: 0 0 0 2vh; 
+    color: #696969;
+}
+.sec-btn{
+    position: absolute;
+    top:70vh;
+    left: 89vh;
+}
+.sec-btn button{
+    padding: 13px;
+    background-color:rgb(106, 165,255) ; 
+    color: white;
+    font-size: 20px;
+    border:none;
+    border-radius: 5vh;
+    box-shadow: 2px 2px 4px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/*nav*/
+.nav{
+    position: relative;
+    height: 55vh;
+}
+.nav .img{
+    position: absolute;
+    left: 15vh;
+
+    cursor: pointer;
+
+}
+.nav-a{
+    padding-left: 110vh;
+    padding-top: 7vh;
+  
+}
+.nav-a h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 2vh;
+    font-size: 30px;
+    cursor: pointer;
+}
+.nav-a p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 2vh;
+    cursor: pointer;
+}
+.nav-btn{
+    padding-top: 4vh;
+    
+}
+.nav-btn button{
+    background-color:rgb(106, 165,255) ;
+    color: white;
+    padding: 13px;
+    border: none;
+    border-radius: 5vh;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px black;
+    text-transform:uppercase;
+}
+/*main*/
+.main-one{
+    height: 55vh;
+}
+.main-one div{
+    
+   float: left;
+   width: 50%;
+}
+.main-a{
+    padding-left: 150px;
+    padding-top: 60px;
+}
+.main-a h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 2vh;
+    cursor: pointer;
+}
+.main-a p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 2vh;
+    cursor: pointer;
+}
+.main-btn{
+    padding-top: 4vh;
+    
+}
+.main-btn button{
+    background-color:rgb(106, 165,255) ;
+    color: white;
+    padding: 13px;
+    border: none;
+    border-radius: 5vh;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px black;
+    text-transform: uppercase;
+}
+/*footer*/
+footer{
+    height: 90vh;
+}
+.foot-one{
+    height: 70vh;
+}
+.foot-one div{
+    float: left;
+    width:50%;
+}
+.foot-a{
+    padding-left: 115px;
+}
+.foot-b{
+    padding-left: 80px;
+    padding-top: 8vh;
+}
+.foot-b h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 2vh;
+    cursor: pointer;
+}
+.foot-b p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 2vh;
+    cursor: pointer;
+}
+.foot-btn{
+    padding-top: 4vh;
+    
+}
+.foot-btn button{
+    background-color:rgb(106, 165,255) ;
+    color: white;
+    padding: 2vh 5vh 2vh 5vh;
+    border: none;
+    border-radius: 5vh;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px black;
+    text-transform: uppercase;
+}
+.foot-span{
+    
+   text-align: center;
+   margin-top: -10vh;
+   color: rgb(3,33,55);
+}
+.foot-span span{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600;
+}
+.foot-c{
+
+ position: absolute;
+ left: 77vh;
+ margin-top: 2vh;
+ border: 2px solid black;
+ height: 7vh;
+ width: 20;
+ background-color: rgb(3,33,55);
+ box-shadow: 2px 2px 4px black;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 8px;
+}
+.foot-d p,.foot-c p{
+    /* padding-left: 40px;
+    padding-top: 10px; */
+    text-transform: capitalize;
+    color: white;
+   
+} 
+.foot-d{
+    position: absolute;
+    left: 98vh;
+    margin-top: 2vh;
+ border: 2px solid black;
+ height: 7vh;
+ width: 20vh;
+ background-color: rgb(3,33,55);
+ font-size: 8px;
+ box-shadow: 2px 2px 4px black;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+.foot-d span,.foot-c span{
+    font-size: 20px;
+    text-transform:capitalize;
+   
+
+}
+/*article*/
+article{
+    height: 10vh;
+}
+
+.art-a li{
+    display: inline;
+    list-style: none;
+    padding: 2vh;
+    text-transform: uppercase;
+    font-size:13px;
+    
+}
+.art-c {
+    height: 50vh;
+    background-image: url(../img/IMG_3333.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*end of the index page*/
+/*about us page*/
+.about-head{
+    border: 2px solid black;
+    height: 25vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/IMG_3325.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+.about-sec-a h1{
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 45px;
+    padding-top: 10px;
+}
+.about-sec-b{
+    height: 50vh;
+}
+.about-sec-b div{
+    float: left;
+    width: 50%;
+
+}
+.about-sec-b img{
+    padding-left: 100px;
+    height: 40vh;
+    width:90vh;
+    padding-top: 5vh;
+}
+.about-lo{
+    padding-top: 5vh;
+}
+.about-lo h1{
+    padding: 2vh 0 2vh 0;
+}
+.about-us-down{
+    padding-left:10vh ; 
+}
+.about-us-down li{
+    display: inline;
+    text-transform:uppercase;
+    padding: 2vh;
+}
+.about-hr{
+    padding-bottom: 20vh;
+    border: 2px solid black;
+    background-image: url(../img/IMG_3333.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+
+    
+}
+.about-head{
+    display: flex;
+    justify-content: space-between;
+}
+.about-head h1{
+    color: white;
+    padding: 2vh 0 0 20vh;
+    text-transform:uppercase;
+}
+.about-head ul{
+    padding: 2vh 20vh 0 0vh;
+
+}
+.about-head li{
+    display: inline;
+    padding:8px;
+    text-transform:uppercase;;
+}
+/*end of about page*/
+/*contact page*/
+ .contact-hea{
+    height: 20vh;
+    border: 2px solid black;
+    height: 25vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/IMG_3325.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+
+ }
+ .contact-hea{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.contact-hea h1{
+    color: white;
+    padding: 2vh 0 0 20vh;
+    text-transform:uppercase;
+}
+.contact-hea ul{
+    padding: 2vh 20vh 0 0vh;
+
+}
+.contact-hea li{
+    display: inline;
+    padding:8px;
+    text-transform:uppercase;
+}
+.contact-sec-a{
+    height: 10vh;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+.contact-sec-b{
+    border: 2px solid black;
+     width: 30%;
+     height: 60vh;
+     margin-left: 70vh;
+     margin-right: 30vh;
+     padding-left: 30vh;
+     text-transform: capitalize;
+     background-color: rgb(3,33,55) ;
+     border: none;
+     box-shadow: 5px 5px 7px black;
+
+    
+}
+.form{
+  
+    color: white;
+}
+.form label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    position:relative;
+    right: 28vh;
+    top:3vh;
+    
+    
+
+}
+.form input{
+    height: 4vh;
+    width: 30vh;
+    border-radius: 5px;
+    position: relative;
+    right: 110px;
+    background-color: #696969;
+    
+
+}
+textarea{
+  position: relative;
+  right: 15vh;
+  background-color: #696969;
+}
+.submit{
+    margin-top: 2vh;
+  border: none;
+  color:white;
+  background-color: #696969;
+}
+.contact-sec-c{
+    height: 30vh;
+    
+}
+.contact-sec-c .contact-span{
+
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5vh;
+    text-transform:capitalize;
+    font-weight: 700;
+    
+
+}
+.contact-sec-c .contact-c{
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+}
+
+.contact-c p{
+    border: 2px solid black;
+
+   box-shadow: 5px 5px 7px black;
+    
+    padding: 2vh;
+    margin: 2vh;
+    text-transform: capitalize;
+    background-color: rgb(3,33,55) ;
+    border: none;
+    color: white;
+
+}
+.contact-c span{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tact{
+    height: 25vh;
+    border: 2px solid black;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/IMG_3331.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
